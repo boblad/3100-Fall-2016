@@ -1,3 +1,3 @@
-g++ main.cpp -o exec && ./exec
+g++ Assign1.cpp -o Assign1 && ./Assign1
 
-g++ main.cpp -o exec && ./exec 1 2 3
+g++ Assign1.cpp -o Assign1 && ./Assign1 1 2 3

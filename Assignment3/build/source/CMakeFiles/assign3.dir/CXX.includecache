@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/source/main.cpp
+iostream
+-
+cstring
+-
+vector
+-
+unistd.h
+-
+sys/wait.h
+-
+

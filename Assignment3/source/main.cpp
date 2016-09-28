@@ -17,7 +17,7 @@ std::vector<char*> parseCommandtoList(std::string command) {
 			std::strcpy(splitCommand, tempSplitCommand.c_str());
 			if (i + 1 < command.size()) indexOfLastSpace++;
 			commandList.push_back(splitCommand);
-		} else if (i == command.size() - 1){
+		} else if (i == command.size() - 1) {
 			std::string tempSplitCommand = command.substr(indexOfLastSpace, i - command.size());
 			char * splitCommand = new char[tempSplitCommand.size()];
 			std::strcpy(splitCommand, tempSplitCommand.c_str());

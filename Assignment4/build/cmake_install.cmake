@@ -1,4 +1,4 @@
-# Install script for directory: /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3
+# Install script for directory: /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/build/source/cmake_install.cmake")
+  include("/Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build/source/cmake_install.cmake")
 
 endif()
 
@@ -41,5 +41,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

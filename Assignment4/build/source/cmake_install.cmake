@@ -1,4 +1,4 @@
-# Install script for directory: /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/source
+# Install script for directory: /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/source
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

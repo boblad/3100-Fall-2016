@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.5.2/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3
+CMAKE_SOURCE_DIR = /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/build
+CMAKE_BINARY_DIR = /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/build/CMakeFiles /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/build/source/CMakeFiles/progress.marks
-	cd /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/build && $(MAKE) -f CMakeFiles/Makefile2 source/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/build/CMakeFiles 0
+	cd /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build/CMakeFiles /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build/source/CMakeFiles/progress.marks
+	cd /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build && $(MAKE) -f CMakeFiles/Makefile2 source/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/build && $(MAKE) -f CMakeFiles/Makefile2 source/clean
+	cd /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build && $(MAKE) -f CMakeFiles/Makefile2 source/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,33 +97,33 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/build && $(MAKE) -f CMakeFiles/Makefile2 source/preinstall
+	cd /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build && $(MAKE) -f CMakeFiles/Makefile2 source/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/build && $(MAKE) -f CMakeFiles/Makefile2 source/preinstall
+	cd /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build && $(MAKE) -f CMakeFiles/Makefile2 source/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-source/CMakeFiles/assign3.dir/rule:
-	cd /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/assign3.dir/rule
-.PHONY : source/CMakeFiles/assign3.dir/rule
+source/CMakeFiles/assign4.dir/rule:
+	cd /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/assign4.dir/rule
+.PHONY : source/CMakeFiles/assign4.dir/rule
 
 # Convenience name for target.
-assign3: source/CMakeFiles/assign3.dir/rule
+assign4: source/CMakeFiles/assign4.dir/rule
 
-.PHONY : assign3
+.PHONY : assign4
 
 # fast build rule for target.
-assign3/fast:
-	cd /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/build && $(MAKE) -f source/CMakeFiles/assign3.dir/build.make source/CMakeFiles/assign3.dir/build
-.PHONY : assign3/fast
+assign4/fast:
+	cd /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build && $(MAKE) -f source/CMakeFiles/assign4.dir/build.make source/CMakeFiles/assign4.dir/build
+.PHONY : assign4/fast
 
 main.o: main.cpp.o
 
@@ -131,7 +131,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/build && $(MAKE) -f source/CMakeFiles/assign3.dir/build.make source/CMakeFiles/assign3.dir/main.cpp.o
+	cd /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build && $(MAKE) -f source/CMakeFiles/assign4.dir/build.make source/CMakeFiles/assign4.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -140,7 +140,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/build && $(MAKE) -f source/CMakeFiles/assign3.dir/build.make source/CMakeFiles/assign3.dir/main.cpp.i
+	cd /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build && $(MAKE) -f source/CMakeFiles/assign4.dir/build.make source/CMakeFiles/assign4.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -149,7 +149,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/build && $(MAKE) -f source/CMakeFiles/assign3.dir/build.make source/CMakeFiles/assign3.dir/main.cpp.s
+	cd /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build && $(MAKE) -f source/CMakeFiles/assign4.dir/build.make source/CMakeFiles/assign4.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -160,7 +160,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... assign3"
+	@echo "... assign4"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

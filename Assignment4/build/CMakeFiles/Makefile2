@@ -54,21 +54,21 @@ RM = /usr/local/Cellar/cmake/3.5.2/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3
+CMAKE_SOURCE_DIR = /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/build
+CMAKE_BINARY_DIR = /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build
 
 #=============================================================================
 # Directory level rules for directory source
 
 # Convenience name for "all" pass in the directory.
-source/all: source/CMakeFiles/assign3.dir/all
+source/all: source/CMakeFiles/assign4.dir/all
 
 .PHONY : source/all
 
 # Convenience name for "clean" pass in the directory.
-source/clean: source/CMakeFiles/assign3.dir/clean
+source/clean: source/CMakeFiles/assign4.dir/clean
 
 .PHONY : source/clean
 
@@ -78,39 +78,39 @@ source/preinstall:
 .PHONY : source/preinstall
 
 #=============================================================================
-# Target rules for target source/CMakeFiles/assign3.dir
+# Target rules for target source/CMakeFiles/assign4.dir
 
 # All Build rule for target.
-source/CMakeFiles/assign3.dir/all:
-	$(MAKE) -f source/CMakeFiles/assign3.dir/build.make source/CMakeFiles/assign3.dir/depend
-	$(MAKE) -f source/CMakeFiles/assign3.dir/build.make source/CMakeFiles/assign3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/build/CMakeFiles --progress-num=1,2 "Built target assign3"
-.PHONY : source/CMakeFiles/assign3.dir/all
+source/CMakeFiles/assign4.dir/all:
+	$(MAKE) -f source/CMakeFiles/assign4.dir/build.make source/CMakeFiles/assign4.dir/depend
+	$(MAKE) -f source/CMakeFiles/assign4.dir/build.make source/CMakeFiles/assign4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build/CMakeFiles --progress-num=1,2 "Built target assign4"
+.PHONY : source/CMakeFiles/assign4.dir/all
 
 # Include target in all.
-all: source/CMakeFiles/assign3.dir/all
+all: source/CMakeFiles/assign4.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-source/CMakeFiles/assign3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/assign3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/build/CMakeFiles 0
-.PHONY : source/CMakeFiles/assign3.dir/rule
+source/CMakeFiles/assign4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/assign4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build/CMakeFiles 0
+.PHONY : source/CMakeFiles/assign4.dir/rule
 
 # Convenience name for target.
-assign3: source/CMakeFiles/assign3.dir/rule
+assign4: source/CMakeFiles/assign4.dir/rule
 
-.PHONY : assign3
-
-# clean rule for target.
-source/CMakeFiles/assign3.dir/clean:
-	$(MAKE) -f source/CMakeFiles/assign3.dir/build.make source/CMakeFiles/assign3.dir/clean
-.PHONY : source/CMakeFiles/assign3.dir/clean
+.PHONY : assign4
 
 # clean rule for target.
-clean: source/CMakeFiles/assign3.dir/clean
+source/CMakeFiles/assign4.dir/clean:
+	$(MAKE) -f source/CMakeFiles/assign4.dir/build.make source/CMakeFiles/assign4.dir/clean
+.PHONY : source/CMakeFiles/assign4.dir/clean
+
+# clean rule for target.
+clean: source/CMakeFiles/assign4.dir/clean
 
 .PHONY : clean
 

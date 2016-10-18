@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.5.2/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3
+CMAKE_SOURCE_DIR = /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/build
+CMAKE_BINARY_DIR = /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/build/CMakeFiles /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build/CMakeFiles /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named assign3
+# Target rules for targets named assign4
 
 # Build rule for target.
-assign3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 assign3
-.PHONY : assign3
+assign4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 assign4
+.PHONY : assign4
 
 # fast build rule for target.
-assign3/fast:
-	$(MAKE) -f source/CMakeFiles/assign3.dir/build.make source/CMakeFiles/assign3.dir/build
-.PHONY : assign3/fast
+assign4/fast:
+	$(MAKE) -f source/CMakeFiles/assign4.dir/build.make source/CMakeFiles/assign4.dir/build
+.PHONY : assign4/fast
 
 # Help Target
 help:
@@ -131,7 +131,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... assign3"
+	@echo "... assign4"
 .PHONY : help
 
 

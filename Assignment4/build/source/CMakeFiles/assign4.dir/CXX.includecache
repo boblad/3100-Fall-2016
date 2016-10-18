@@ -6,8 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/Users/bryantoblad/school/OS-3100-Fall-2016/Assignment3/source/main.cpp
+/Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/source/main.cpp
 iostream
+-
+chrono
 -
 cstring
 -
@@ -16,5 +18,11 @@ vector
 unistd.h
 -
 sys/wait.h
+-
+cstdio
+-
+cstdlib
+-
+csignal
 -
 

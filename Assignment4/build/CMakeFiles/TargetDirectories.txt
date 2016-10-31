@@ -1,5 +1,0 @@
-/Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build/CMakeFiles/edit_cache.dir
-/Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build/CMakeFiles/rebuild_cache.dir
-/Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build/source/CMakeFiles/edit_cache.dir
-/Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build/source/CMakeFiles/rebuild_cache.dir
-/Users/bryantoblad/school/OS-3100-Fall-2016/Assignment4/build/source/CMakeFiles/assign4.dir

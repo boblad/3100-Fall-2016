@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bryantoblad/school/OS-3100-Fall-2016/Assignment6/source/main.cpp
+iostream
+-
+vector
+-
+unordered_set
+-
+unordered_map
+-
+queue
+-
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+

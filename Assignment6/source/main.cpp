@@ -36,7 +36,10 @@ int countAnamomalies() {
       std::queue<int> faultQueue;
       int sequenceFirst = randomSequence[0];
       faultQueue.push(sequenceFirst);
-      searchList.insert({sequenceFirst, sequenceFirst});
+      searchList.insert({
+        sequenceFirst,
+        sequenceFirst
+      });
       tempFault = currentFault;
       // because a fault has already been added
       currentFault = 1;
@@ -48,14 +51,20 @@ int countAnamomalies() {
           continue;
         } else if (faultQueue.size() <= j) {
           currentFault++;
-          searchList.insert({checker, checker});
+          searchList.insert({
+            checker,
+            checker
+          });
           faultQueue.push(checker);
         } else {
           currentFault++;
           searchList.erase(faultQueue.front());
           faultQueue.pop();
           faultQueue.push(checker);
-          searchList.insert({checker, checker});
+          searchList.insert({
+            checker,
+            checker
+          });
         }
       }
 
